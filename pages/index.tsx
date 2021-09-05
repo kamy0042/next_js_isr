@@ -41,7 +41,7 @@ const Home: NextPage<Props> = ({ date }) => {
                 </p>
 
                 <p>now:{date}</p>
-                <p>10秒ごとに更新されます</p>
+                <p>静的に出力されたHTMLを10秒ごとに更新します</p>
             </main>
 
             <footer className={styles.footer}>
